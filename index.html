@@ -1,57 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DJ SVG</title>
-  <!-- Link to CSS -->
-  <link rel="stylesheet" href="styles.css">
-  <!-- Font Awesome for Social Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DJ SVG - Link Style</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome for Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  />
 </head>
 <body>
+  <!-- Background (blurred) -->
   <div class="background-blur"></div>
-  <div class="container">
+
+  <!-- Main Container -->
+  <div class="main-container">
+   
     <!-- Profile Section -->
-    <div class="profile">
-      <img src="profile.jpg" alt="DJ SVG" class="profile-pic">
-      <h1>@_svg.27</h1>
+    <div class="profile-section">
+      <img src="profile.jpg" alt="DJ MOUB" class="profile-pic"/>
+      <h1 class="username">@_MOUB</h1>
+      <p class="subtitle">let us take you to a whole new rhythm.✨</p>
     </div>
 
-    <div class="social-icons">
-      <a href="https://www.instagram.com/_svg.27/" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
-      <a href="https://soundcloud.com/ilyas-naim-852221500" target="_blank" class="icon"><i class="fab fa-soundcloud"></i></a>
-      <a href="mailto:ilyassnaim19@gmail.com" target="_blank" class="icon"><i class="fas fa-envelope"></i></a>
-    </div>
-    
-
-    <!-- Booking Section -->
-    <div class="booking">
-      <p>For Booking: <a href="mailto:ilyassnaim19@gmail.com">ilyassnaim19@gmail.com</a></p>
-    </div>
-
-    <!-- Links Section -->
-    <div class="links">
-      <a href="https://soundcloud.com/ilyas-naim-852221500/echoes-of-abyss" class="card" target="_blank">
-        <img src="echoes.jpg" alt="Echoes of Abyss">
-        <span>Echoes of Abyss</span>
+     <!-- Top Icons Section -->
+    <div class="top-icons">
+      <a href="https://on.soundcloud.com/ACQFoV8zcYsRBkWj7" target="_blank" class="icon">
+        <i class="fab fa-soundcloud"></i>
       </a>
-      <a href="https://soundcloud.com/ilyas-naim-852221500/39-365" class="card" target="_blank">
-        <img src="maghreb.jpg" alt="Maghreb">
-        <span>Maghreb</span>
+      <a href="https://www.instagram.com/badr_mouhid?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="icon">
+        <i class="fab fa-instagram"></i>
       </a>
-      <a href="https://www.instagram.com/_svg.27" class="card" target="_blank">
-        <img src="instagram.jpg" alt="Instagram">
-        <span>Follow on Instagram</span>
+      <a herf="http://www.youtube.com/@badryt7867" target="_blank" class="icon">
+        <i class="fab fa-youtube"></i>
       </a>
     </div>
 
-    <!-- Dark Mode Toggle -->
-    <button id="theme-toggle">Toggle Dark Mode</button>
+    <!-- Link Buttons (Cards) -->
+    <div class="links-container">
+      <!-- SoundCloud -->
+      <a href="https://on.soundcloud.com/ACQFoV8zcYsRBkWj7" target="_blank" class="link-card">
+        <div class="icon-circle">
+          <img src="maghreb.jpg" alt="SoundCloud" />
+        </div>
+        <span>SoundCloud</span>
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/badr_mouhid?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="link-card">
+        <div class="icon-circle">
+          <img src="instagram.jpg" alt="Instagram" />
+        </div>
+        <span>Instagram</span>
+      </a>
+
+      <!-- Youtube -->
+      <a herf="http://www.youtube.com/@badryt7867" target="_blank" class="link-card">
+        <div class="icon-circle">
+          <img src="youtube.jpg" alt="Youtube" />
+        </div>
+        <span>Youtube</span>
+      </a>
+      
+      <!-- Email -->
+      <a href="mailto:ilyassnaim19@gmail.com" target="_blank" class="link-card">
+        <div class="icon-circle">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <span>Email</span>
+      </a>
+    </div>
   </div>
 
-  <!-- Link to JavaScript -->
+  <!-- Book Me Button -->
+  <a href="mailto:ilyassnaim19@gmail.com" class="book-me-btn">Book Me</a>
+
+  <!-- Optional Scroll to Top Button -->
+  <button id="scroll-to-top">↑</button>
+
+  <!-- JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
-
