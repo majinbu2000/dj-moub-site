@@ -122,10 +122,13 @@ body {
 .icon-circle i {
   font-size: 18px;
   color: #333;
-  width: 100%;
-  height: 100%;
+  width: 20px; /* Adjusted width for better alignment */
+  height: 20px; /* Adjusted height for better alignment */
   object-fit: cover; /* For images */
   text-align: center; /* For icon */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Book Me Button (Fixed at Bottom-Right) */
@@ -167,4 +170,32 @@ body {
 
 #scroll-to-top:hover {
   background: #666;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .main-container {
+    padding: 10px;
+    max-width: 90%;
+  }
+
+  .top-icons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .link-card {
+    padding: 12px 15px;
+  }
+
+  .book-me-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  #scroll-to-top {
+    bottom: 60px;
+    right: 15px;
+    font-size: 16px;
+  }
 }
