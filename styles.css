@@ -133,7 +133,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #ff4500;
+  background: #3a11b8;
   color: #fff;
   text-decoration: none;
   font-size: 14px;
@@ -144,7 +144,7 @@ body {
 }
 
 .book-me-btn:hover {
-  background: #e63900;
+  background: #0772ed;
   transform: scale(1.1);
 }
 
